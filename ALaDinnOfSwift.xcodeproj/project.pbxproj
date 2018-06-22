@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0745F1C1D037048C30DD7A60 /* Pods_ALaDinnOfSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B82AE998C967C4116B0DF0D /* Pods_ALaDinnOfSwift.framework */; };
 		188AADB020DCD0B3006FDCCA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188AADAF20DCD0B3006FDCCA /* AppDelegate.swift */; };
 		188AADB220DCD0B3006FDCCA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188AADB120DCD0B3006FDCCA /* ViewController.swift */; };
 		188AADB520DCD0B3006FDCCA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 188AADB320DCD0B3006FDCCA /* Main.storyboard */; };
@@ -14,6 +15,26 @@
 		188AADBA20DCD0B3006FDCCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 188AADB820DCD0B3006FDCCA /* LaunchScreen.storyboard */; };
 		188AADC520DCD0B3006FDCCA /* ALaDinnOfSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188AADC420DCD0B3006FDCCA /* ALaDinnOfSwiftTests.swift */; };
 		188AADD020DCD0B3006FDCCA /* ALaDinnOfSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188AADCF20DCD0B3006FDCCA /* ALaDinnOfSwiftUITests.swift */; };
+		188AADDD20DCD1F9006FDCCA /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 188AADE620DCD1F9006FDCCA /* Alamofire.framework */; };
+		188AADDF20DCD1F9006FDCCA /* HandyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 188AADE820DCD1F9006FDCCA /* HandyJSON.framework */; };
+		188AADE020DCD1F9006FDCCA /* Kingfisher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 188AADE920DCD1F9006FDCCA /* Kingfisher.framework */; };
+		188AADE120DCD1F9006FDCCA /* Moya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 188AADEA20DCD1F9006FDCCA /* Moya.framework */; };
+		188AADE220DCD1F9006FDCCA /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 188AADEB20DCD1F9006FDCCA /* Result.framework */; };
+		188AADE320DCD1F9006FDCCA /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 188AADEC20DCD1F9006FDCCA /* SnapKit.framework */; };
+		188AADE420DCD1F9006FDCCA /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 188AADED20DCD1F9006FDCCA /* SwiftyJSON.framework */; };
+		188AADE520DCD1F9006FDCCA /* Then.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 188AADEE20DCD1F9006FDCCA /* Then.framework */; };
+		188AADF020DCD388006FDCCA /* TabbarConfiger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188AADEF20DCD388006FDCCA /* TabbarConfiger.swift */; };
+		188AADF220DCD452006FDCCA /* ExampleNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188AADF120DCD452006FDCCA /* ExampleNavigationController.swift */; };
+		188AADF420DCD46C006FDCCA /* ExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188AADF320DCD46C006FDCCA /* ExampleViewController.swift */; };
+		188AAE0020DCD596006FDCCA /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 188AADF720DCD596006FDCCA /* Localizable.strings */; };
+		188AAE0120DCD596006FDCCA /* ESTabBarItemMoreContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188AADF920DCD596006FDCCA /* ESTabBarItemMoreContentView.swift */; };
+		188AAE0220DCD596006FDCCA /* ESTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188AADFA20DCD596006FDCCA /* ESTabBarController.swift */; };
+		188AAE0320DCD596006FDCCA /* ESTabBarItemContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188AADFB20DCD596006FDCCA /* ESTabBarItemContentView.swift */; };
+		188AAE0420DCD596006FDCCA /* ESTabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188AADFC20DCD596006FDCCA /* ESTabBarItem.swift */; };
+		188AAE0520DCD596006FDCCA /* ESTabBarItemBadgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188AADFD20DCD596006FDCCA /* ESTabBarItemBadgeView.swift */; };
+		188AAE0620DCD596006FDCCA /* ESTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188AADFE20DCD596006FDCCA /* ESTabBar.swift */; };
+		188AAE0720DCD596006FDCCA /* ESTabBarItemContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188AADFF20DCD596006FDCCA /* ESTabBarItemContainer.swift */; };
+		188AAE0920DCD60E006FDCCA /* ExampleBasicContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188AAE0820DCD60E006FDCCA /* ExampleBasicContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +68,30 @@
 		188AADCB20DCD0B3006FDCCA /* ALaDinnOfSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ALaDinnOfSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		188AADCF20DCD0B3006FDCCA /* ALaDinnOfSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALaDinnOfSwiftUITests.swift; sourceTree = "<group>"; };
 		188AADD120DCD0B3006FDCCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		188AADE620DCD1F9006FDCCA /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		188AADE720DCD1F9006FDCCA /* ESTabBarController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ESTabBarController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		188AADE820DCD1F9006FDCCA /* HandyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = HandyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		188AADE920DCD1F9006FDCCA /* Kingfisher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Kingfisher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		188AADEA20DCD1F9006FDCCA /* Moya.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Moya.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		188AADEB20DCD1F9006FDCCA /* Result.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Result.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		188AADEC20DCD1F9006FDCCA /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		188AADED20DCD1F9006FDCCA /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		188AADEE20DCD1F9006FDCCA /* Then.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Then.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		188AADEF20DCD388006FDCCA /* TabbarConfiger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarConfiger.swift; sourceTree = "<group>"; };
+		188AADF120DCD452006FDCCA /* ExampleNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleNavigationController.swift; sourceTree = "<group>"; };
+		188AADF320DCD46C006FDCCA /* ExampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleViewController.swift; sourceTree = "<group>"; };
+		188AADF820DCD596006FDCCA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		188AADF920DCD596006FDCCA /* ESTabBarItemMoreContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESTabBarItemMoreContentView.swift; sourceTree = "<group>"; };
+		188AADFA20DCD596006FDCCA /* ESTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESTabBarController.swift; sourceTree = "<group>"; };
+		188AADFB20DCD596006FDCCA /* ESTabBarItemContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESTabBarItemContentView.swift; sourceTree = "<group>"; };
+		188AADFC20DCD596006FDCCA /* ESTabBarItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESTabBarItem.swift; sourceTree = "<group>"; };
+		188AADFD20DCD596006FDCCA /* ESTabBarItemBadgeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESTabBarItemBadgeView.swift; sourceTree = "<group>"; };
+		188AADFE20DCD596006FDCCA /* ESTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESTabBar.swift; sourceTree = "<group>"; };
+		188AADFF20DCD596006FDCCA /* ESTabBarItemContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESTabBarItemContainer.swift; sourceTree = "<group>"; };
+		188AAE0820DCD60E006FDCCA /* ExampleBasicContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleBasicContentView.swift; sourceTree = "<group>"; };
+		4582230832F34EC8A45C5805 /* Pods-ALaDinnOfSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ALaDinnOfSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-ALaDinnOfSwift/Pods-ALaDinnOfSwift.release.xcconfig"; sourceTree = "<group>"; };
+		5B82AE998C967C4116B0DF0D /* Pods_ALaDinnOfSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ALaDinnOfSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3540343DCBB6A396E95EF48 /* Pods-ALaDinnOfSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ALaDinnOfSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ALaDinnOfSwift/Pods-ALaDinnOfSwift.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +99,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				188AADDD20DCD1F9006FDCCA /* Alamofire.framework in Frameworks */,
+				188AADDF20DCD1F9006FDCCA /* HandyJSON.framework in Frameworks */,
+				188AADE020DCD1F9006FDCCA /* Kingfisher.framework in Frameworks */,
+				188AADE120DCD1F9006FDCCA /* Moya.framework in Frameworks */,
+				188AADE220DCD1F9006FDCCA /* Result.framework in Frameworks */,
+				188AADE320DCD1F9006FDCCA /* SnapKit.framework in Frameworks */,
+				188AADE420DCD1F9006FDCCA /* SwiftyJSON.framework in Frameworks */,
+				188AADE520DCD1F9006FDCCA /* Then.framework in Frameworks */,
+				0745F1C1D037048C30DD7A60 /* Pods_ALaDinnOfSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +135,8 @@
 				188AADC320DCD0B3006FDCCA /* ALaDinnOfSwiftTests */,
 				188AADCE20DCD0B3006FDCCA /* ALaDinnOfSwiftUITests */,
 				188AADAD20DCD0B3006FDCCA /* Products */,
+				B3290DE2E34A19AA699C7372 /* Pods */,
+				A5C7C2F7424176395B905B2D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,8 +153,13 @@
 		188AADAE20DCD0B3006FDCCA /* ALaDinnOfSwift */ = {
 			isa = PBXGroup;
 			children = (
+				188AADF520DCD581006FDCCA /* ThirdPath */,
 				188AADAF20DCD0B3006FDCCA /* AppDelegate.swift */,
 				188AADB120DCD0B3006FDCCA /* ViewController.swift */,
+				188AADEF20DCD388006FDCCA /* TabbarConfiger.swift */,
+				188AAE0820DCD60E006FDCCA /* ExampleBasicContentView.swift */,
+				188AADF320DCD46C006FDCCA /* ExampleViewController.swift */,
+				188AADF120DCD452006FDCCA /* ExampleNavigationController.swift */,
 				188AADB320DCD0B3006FDCCA /* Main.storyboard */,
 				188AADB620DCD0B3006FDCCA /* Assets.xcassets */,
 				188AADB820DCD0B3006FDCCA /* LaunchScreen.storyboard */,
@@ -125,6 +186,55 @@
 			path = ALaDinnOfSwiftUITests;
 			sourceTree = "<group>";
 		};
+		188AADF520DCD581006FDCCA /* ThirdPath */ = {
+			isa = PBXGroup;
+			children = (
+				188AADF620DCD596006FDCCA /* ESTabBarController */,
+			);
+			path = ThirdPath;
+			sourceTree = "<group>";
+		};
+		188AADF620DCD596006FDCCA /* ESTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				188AADF720DCD596006FDCCA /* Localizable.strings */,
+				188AADF920DCD596006FDCCA /* ESTabBarItemMoreContentView.swift */,
+				188AADFA20DCD596006FDCCA /* ESTabBarController.swift */,
+				188AADFB20DCD596006FDCCA /* ESTabBarItemContentView.swift */,
+				188AADFC20DCD596006FDCCA /* ESTabBarItem.swift */,
+				188AADFD20DCD596006FDCCA /* ESTabBarItemBadgeView.swift */,
+				188AADFE20DCD596006FDCCA /* ESTabBar.swift */,
+				188AADFF20DCD596006FDCCA /* ESTabBarItemContainer.swift */,
+			);
+			path = ESTabBarController;
+			sourceTree = "<group>";
+		};
+		A5C7C2F7424176395B905B2D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				188AADE620DCD1F9006FDCCA /* Alamofire.framework */,
+				188AADE720DCD1F9006FDCCA /* ESTabBarController.framework */,
+				188AADE820DCD1F9006FDCCA /* HandyJSON.framework */,
+				188AADE920DCD1F9006FDCCA /* Kingfisher.framework */,
+				188AADEA20DCD1F9006FDCCA /* Moya.framework */,
+				188AADEB20DCD1F9006FDCCA /* Result.framework */,
+				188AADEC20DCD1F9006FDCCA /* SnapKit.framework */,
+				188AADED20DCD1F9006FDCCA /* SwiftyJSON.framework */,
+				188AADEE20DCD1F9006FDCCA /* Then.framework */,
+				5B82AE998C967C4116B0DF0D /* Pods_ALaDinnOfSwift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B3290DE2E34A19AA699C7372 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A3540343DCBB6A396E95EF48 /* Pods-ALaDinnOfSwift.debug.xcconfig */,
+				4582230832F34EC8A45C5805 /* Pods-ALaDinnOfSwift.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +242,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 188AADD420DCD0B3006FDCCA /* Build configuration list for PBXNativeTarget "ALaDinnOfSwift" */;
 			buildPhases = (
+				F1DE123D13498B20F872E418 /* [CP] Check Pods Manifest.lock */,
 				188AADA820DCD0B3006FDCCA /* Sources */,
 				188AADA920DCD0B3006FDCCA /* Frameworks */,
 				188AADAA20DCD0B3006FDCCA /* Resources */,
+				C366A4189BC9635035C84E42 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -233,6 +345,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				188AADBA20DCD0B3006FDCCA /* LaunchScreen.storyboard in Resources */,
+				188AAE0020DCD596006FDCCA /* Localizable.strings in Resources */,
 				188AADB720DCD0B3006FDCCA /* Assets.xcassets in Resources */,
 				188AADB520DCD0B3006FDCCA /* Main.storyboard in Resources */,
 			);
@@ -254,13 +367,77 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		C366A4189BC9635035C84E42 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ALaDinnOfSwift/Pods-ALaDinnOfSwift-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/HandyJSON/HandyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/Then/Then.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HandyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Then.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ALaDinnOfSwift/Pods-ALaDinnOfSwift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1DE123D13498B20F872E418 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ALaDinnOfSwift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		188AADA820DCD0B3006FDCCA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				188AADF220DCD452006FDCCA /* ExampleNavigationController.swift in Sources */,
+				188AAE0620DCD596006FDCCA /* ESTabBar.swift in Sources */,
+				188AAE0320DCD596006FDCCA /* ESTabBarItemContentView.swift in Sources */,
+				188AAE0220DCD596006FDCCA /* ESTabBarController.swift in Sources */,
+				188AAE0520DCD596006FDCCA /* ESTabBarItemBadgeView.swift in Sources */,
 				188AADB220DCD0B3006FDCCA /* ViewController.swift in Sources */,
+				188AAE0120DCD596006FDCCA /* ESTabBarItemMoreContentView.swift in Sources */,
 				188AADB020DCD0B3006FDCCA /* AppDelegate.swift in Sources */,
+				188AAE0720DCD596006FDCCA /* ESTabBarItemContainer.swift in Sources */,
+				188AADF020DCD388006FDCCA /* TabbarConfiger.swift in Sources */,
+				188AAE0420DCD596006FDCCA /* ESTabBarItem.swift in Sources */,
+				188AAE0920DCD60E006FDCCA /* ExampleBasicContentView.swift in Sources */,
+				188AADF420DCD46C006FDCCA /* ExampleViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +487,14 @@
 				188AADB920DCD0B3006FDCCA /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		188AADF720DCD596006FDCCA /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				188AADF820DCD596006FDCCA /* en */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -424,29 +609,35 @@
 		};
 		188AADD520DCD0B3006FDCCA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3540343DCBB6A396E95EF48 /* Pods-ALaDinnOfSwift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ALaDinnOfSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.slkj.ALaDinnOfSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)";
 			};
 			name = Debug;
 		};
 		188AADD620DCD0B3006FDCCA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4582230832F34EC8A45C5805 /* Pods-ALaDinnOfSwift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ALaDinnOfSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.slkj.ALaDinnOfSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)";
 			};
 			name = Release;
 		};
