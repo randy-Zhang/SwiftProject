@@ -1,4 +1,4 @@
-platform :ios, '8.0'
+platform :ios, '11.0'
 
 use_frameworks!
 
@@ -11,6 +11,7 @@ pod 'Kingfisher'
 pod 'Moya'
 pod 'Then'
 pod 'HandyJSON'
+pod 'Navigation-stack'
 # pod 'ESTabBarController'
 
 end

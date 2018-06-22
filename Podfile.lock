@@ -7,6 +7,7 @@ PODS:
   - Moya/Core (11.0.2):
     - Alamofire (~> 4.1)
     - Result (~> 3.0)
+  - Navigation-stack (2.0.2)
   - Result (3.2.4)
   - SnapKit (4.0.0)
   - SwiftyJSON (4.0.0)
@@ -17,6 +18,7 @@ DEPENDENCIES:
   - HandyJSON
   - Kingfisher
   - Moya
+  - Navigation-stack
   - SnapKit
   - SwiftyJSON
   - Then
@@ -27,6 +29,7 @@ SPEC REPOS:
     - HandyJSON
     - Kingfisher
     - Moya
+    - Navigation-stack
     - Result
     - SnapKit
     - SwiftyJSON
@@ -37,11 +40,12 @@ SPEC CHECKSUMS:
   HandyJSON: 3a3de917c4118767ffe41c29b5acba23409649f4
   Kingfisher: da6b005aa96d37698e3e4f1ccfe96a5b9bbf27d6
   Moya: a725035953bc1c0eb1be505ab903984501d82440
+  Navigation-stack: fb9d7189f6c8b8d4a58f1cad129e4dbcc51aa2d0
   Result: d2d07204ce72856f1fd9130bbe42c35a7b0fea10
   SnapKit: a42d492c16e80209130a3379f73596c3454b7694
   SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
   Then: ee21c97b85ff6062b9b0080c9abb1eea46743345
 
-PODFILE CHECKSUM: 16fdedd90a7dadff47c984c502dc7e747074a461
+PODFILE CHECKSUM: fff37e8d3760674d3077b5a579d8b670409dbee9
 
 COCOAPODS: 1.5.0

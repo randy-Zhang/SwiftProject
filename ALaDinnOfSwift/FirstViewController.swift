@@ -1,5 +1,5 @@
 //
-//  ExampleViewController.swift
+//  FirstViewController.swift
 //  ALaDinnOfSwift
 //
 //  Created by ZCW on 2018/6/22.
@@ -8,23 +8,16 @@
 
 import UIKit
 
-class ExampleViewController: UIViewController {
+class FirstViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-    
-        navigationItem.title = "首页"
-        
-        view.isUserInteractionEnabled = true
+        view.backgroundColor = UIColor.white
+        title = "第二页"
     }
 
-    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-        navigationController?.pushViewController(FirstViewController.init(), animated: true)
-    }
-    
-    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

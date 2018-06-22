@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Navigation_stack
 
 class ExampleNavigationController: UINavigationController {
     
@@ -17,12 +18,31 @@ class ExampleNavigationController: UINavigationController {
         self.navigationBar.isTranslucent = true
         self.navigationBar.barTintColor = UIColor.init(red: 250/255.0, green: 250/255.0, blue: 250/255.0, alpha: 0.8)
         #if swift(>=4.0)
-            self.navigationBar.titleTextAttributes = [NSAttributedStringKey.foregroundColor : UIColor.init(red: 38/255.0, green: 38/255.0, blue: 38/255.0, alpha: 1.0), NSAttributedStringKey.font: UIFont.systemFont(ofSize: 16.0)]
+            self.navigationBar.titleTextAttributes = [NSAttributedStringKey.foregroundColor : UIColor.black, NSAttributedStringKey.font: UIFont.systemFont(ofSize: 16.0)]
         #elseif swift(>=3.0)
             self.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName : UIColor.init(red: 38/255.0, green: 38/255.0, blue: 38/255.0, alpha: 1.0), NSFontAttributeName: UIFont.systemFont(ofSize: 16.0)];
         #endif
-        self.navigationBar.tintColor = UIColor.init(red: 38/255.0, green: 38/255.0, blue: 38/255.0, alpha: 1.0)
-        self.navigationItem.title = "Example"
+        self.navigationBar.tintColor = UIColor.black
+//        self.navigationItem.title = "Example"
+        
+        self.interactivePopGestureRecognizer?.delegate = self
     }
+}
+
+extension ExampleNavigationController: UIGestureRecognizerDelegate{
     
+    func gestureRecognizerShouldBegin(_: UIGestureRecognizer) -> Bool {
+        
+        return true
+        
+        if navigationController?.viewControllers.count == 2 {
+            return true
+        }
+        
+        if let navigationController = self.navigationController as? NavigationStack {
+            navigationController.showControllers()
+        }
+        
+        return false
+    }
 }
